@@ -90,6 +90,7 @@ const Squares = () => {
             newSquares.push(row);
         }
         setSquares(newSquares);
+        localStorage.setItem("numOfSquares", numOfSquares);
     }, [])
 
     return (
